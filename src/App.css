@@ -1,0 +1,107 @@
+.main-edit{
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.heading1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.heading2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.heading3{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+form{
+  width: 300px;
+  display: flex;
+  gap:40px;
+  flex-direction: column;
+}
+
+.eiInput{
+  background-color: black;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.eiData{
+  display: flex;
+  gap: 100px;
+
+}
+
+.validation-message{
+  color: red;
+  font-size: small;
+  margin-top: 5px;
+}
+
+.form-elements{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+
+.flex-row{
+  display: flex;
+  gap: 20px;
+}
+
+.remove-button{
+  display: flex;
+  gap: 2px;
+}
+
+td{
+  justify-content: center;
+ }
+
+.total-balance{
+  font-size: 20px !important;
+  margin-top: 50px !important;
+ }
+
+.table-container {
+  max-height: 400px; 
+  overflow-y: auto;
+}
+
+.table thead th {
+  position: sticky;
+  top: 0; 
+  z-index: 1; 
+}
+
+.alert{
+  margin-bottom: 0px !important;
+}
+
+.bar-chart{
+  height: 400px !important;
+  width: 400px !important;
+  margin: 90px;
+  margin-top: 60px;
+
+}
+
+.main-report{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  
+}
